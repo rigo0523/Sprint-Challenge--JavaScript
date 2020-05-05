@@ -29,15 +29,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+forEach doesn't return anything, it returns undefined unless we push our iteration of it to a new array. MAP() iterates over an array / object and it returns a new array. I might
+need a better explanation on this. Still not sure what the point of using forEach is when .map() works better including the chaining of reduce(), sort() and filter() to it. 
 2. What is the difference between a function and a method?
-
+function is a piece of code that is called by name, all data passed inside a function can only be executed by invoking the function while as a method is a function within an oject that can only be called via the object method.
 3. What is closure?
-
+a closure is function inside another funtion
 4. Describe the four rules of the 'this' keyword.
-
+this represents the object itself. 1 default binding 2 inplicit binding, explicit binding and new binding. 
 5. Why do we need super() in an extended class?
-
+it is used in extended classes, it's used to access call function on an objects parent
 ## Project Set up
 
 Follow these steps to set up and work on your project:
